@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 62.5%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/sean-pollock-PhYq704ffdA-unsplash.jpg) center;
+    background-size: cover;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.7;
+    cursor: default;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 4rem;
+    font-size: 6rem;
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+.inputBox input{
+    border: none;
+    outline: none;
+    margin: 0px 1rem;
+    text-align: center;
+    font-size: 2rem;
+    cursor: default;
+    width: 10rem;
+    padding: 2rem 0px;
+    border-radius: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
